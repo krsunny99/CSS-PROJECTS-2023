@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+        integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <section class="header">
+        <nav>
+            <img src="./img/logo.png" alt="">
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-books">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus sint impedit <br>
+                mollitia nobis nesciunt dicta vel esse ad recusandae, in corrupti, vitae obcaecati. Enim voluptate
+                deserunt perferendis nulla dignissimos voluptatum!</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+
+    </section>
+
+
+    <!-- ----------------------JavaScript----------------- -->
+
+    <script>
+        var navLinks = document.getElementById("nav-links")
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+    <!-- -------------course-section starts--------------------- -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fugit unde accusamus t</p>
+
+        <div class="row">
+            <div class="course-column">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae sint ipsa eligendi, eveniet fuga
+                    cum, animi ex officia, natus ea doloribus dolores dignissimos provident incidunt nulla ullam quams
+                </p>
+            </div>
+            <div class="course-column">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae sint ipsa eligendi, eveniet fuga
+                    cum, animi ex officia, natus ea doloribus dolores dignissimos provident incidunt nulla ullam quams
+                </p>
+            </div>
+            <div class="course-column">
+                <h3>Post Graduate</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae sint ipsa eligendi, eveniet fuga
+                    cum, animi ex officia, natus ea doloribus dolores dignissimos provident incidunt nulla ullam quams
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------campus-section-starts---------------------- -->
+
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fugit unde accusamus t</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="./img/london.png" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./img/newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="./img/washington.png" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- ---------------------------Facilties-Section--------------------------- -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fugit unde accusamus t</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./img/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt enim quia fugit itaque iure
+                    vero nam temporibus, dolor illo libero? Perferendis provide.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/basketball.png" alt="">
+                <h3>Largest Playground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt enim quia fugit itaque iure
+                    vero nam temporibus, dolor illo libero? Perferendis provide.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./img/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum incidunt enim quia fugit itaque iure
+                    vero nam temporibus, dolor illo libero? Perferendis provide.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ----------------------testimonial-starts------------ -->
+    <section class="testimonials">
+        <h1>What Our Students Say</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque fugit unde accusamus t</p>
+
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="./img/user1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore mollitia, quod quibusdam ipsa
+                        temporibus in nesciunt aperiam eum quis similique unde non, explicabo a magnam sunt, atque
+                        voluptatem dolores ducimus?</p>
+                    <h3>David Bekham</h3>
+
+                </div>
+            </div>
+
+            <div class="testimonial-col">
+                <img src="./img/user2.jpg" alt="">
+                <div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore mollitia, quod quibusdam ipsa
+                        temporibus in nesciunt aperiam eum quis similique unde non, explicabo a magnam sunt, atque
+                        voluptatem dolores ducimus?</p>
+                    <h3>Andelia Bekham</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- ----------------------call-to-action-------------------- -->
+
+    <section class="cta">
+        <h1>Enroll For Our Various Online Courses Anywhere From the World</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <!-- ---------------------------footer-starts----------------------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor deleniti illo, aliquid autem et eveniet, in <br>
+            voluptatibus repudiandae aliquam neque praesentium debitis molestiae modi earum molestias eligendi nam natus
+            provident.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+    </section>
+</body>
+
+</html>

@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+nav {
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 96px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 45px;
+    border-radius: 50%;
+}
+
+.logo h4 {
+
+    font-weight: 700;
+    color: #fff;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.body-section {
+    height: 100%;
+    width: 100%;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-position: center -138px;
+    overflow: hidden;
+
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-inline: 200px;
+}
+
+.left-section {
+    padding-top: 45px;
+    padding-inline: 7px;
+    padding-bottom: 0px;
+    background-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.left-section img {
+    width: 267px;
+    height: 445px;
+    height: 100%;
+
+}
+
+.right-content {
+    margin-left: 80px;
+    padding-top: 100px;
+}
+
+.right-content h1 {
+    font-size: 64px;
+    font-weight: 900;
+    color: white;
+    letter-spacing: -0.04em;
+    line-height: 1.15;
+}
+
+.spotify-button {
+    padding: 13px 28px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 0;
+    outline: none;
+    cursor: pointers;
+}
+
+.btn-text {
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.feature-section {
+    padding: 78px 96px;
+
+}
+
+.features {
+    display: flex;
+    padding-top: 70px;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 20%;
+    flex-grow: 1;
+}
+
+.feature img {
+    width: 140px;
+    height: 140px;
+    margin-bottom: 30px;
+}
+
+.feature h4 {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 21px;
+    padding: 0px;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.feature p {
+    line-height: 1.5;
+    font-size: 16px;
+    padding: 0px;
+    text-align: center;
+    padding-inline: 36px
+}
+
+
+.feature-section h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    text-align: center;
+}
+
+.banner {
+    padding-block: 190px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+}
+
+.banner h2 {
+    color: white;
+    font-size: 54px;
+    font-weight: 900;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+}
+
+.start {
+    padding-block: 190px;
+    width: 100%;
+    overflow: hidden;
+    background: url(https://www.scdn.co/i/free/lets-play.svg) center center / 100% no-repeat, linear-gradient(-155deg, rgb(108, 14, 224) 55%, rgb(240, 55, 166) 115%) rgb(108, 14, 224);
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+.start h2 {
+    color: white;
+    font-size: 74px;
+    font-weight: 900;
+
+
+}
+
+
+.questions {
+    padding-block: 200px;
+    text-align: center;
+    width: 100%;
+}
+
+.questions h2{
+    color: #000;
+    font-size: 44px;
+    font-weight: 900;
+
+}
+
+
+
+.footer {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline: 100px;
+    align-items: flex-start;
+    
+}
+
+.footer .logo{
+    width: 20%;
+}
+
+
+.footer .imp-links{
+    display: flex;
+    width: 50%;
+    
+}
+
+.imp-links{
+    margin-left: 60px;
+}
+
+.footer .imp-links ul{
+    display: flex;
+    flex-direction: column;
+    margin-right: 80px;
+}
+
+.footer .imp-links ul li{
+    margin-block: 10px;
+}
+
+.footer .imp-links ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer .social-media-icons{
+    width: 20%;
+}
+
+.footer .social-media-icons ul{
+    display: flex;
+    justify-content: end;
+
+
+}
+
+.footer .social-media-icons ul li img{
+    margin-inline: 10px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+
+} 
+
+/* .footer .social-media-icons ul li a{
+    background-color: #000;
+    border-radius: 50%;
+    
+} */
+
+
+
+social-media-icons
+
+ .country{
+    width: 100%;
+}
+
+
+
+.footer .below-links{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.below-links .left-part ul{
+    display: flex;
+}
+
+.below-links .left-part ul li{
+   margin-inline: 10px;
+}
+
+.below-links .left-part ul li a{
+    text-decoration: none;
+    color: #919496!important;
+    font-size: 12px;
+    
+ }
+
+
+
+.below-links span a{
+    text-decoration: none;
+    color: #919496!important;
+    font-size: 12px;
+    
+}

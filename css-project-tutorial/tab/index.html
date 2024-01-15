@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tab in html | css</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="btn-container">
+            <button id="btn-1" onClick="openHTML()" >HTML</button>
+            <button id="btn-2" onClick="openCSS()">CSS</button>
+            <button id="btn-3" onClick="openJS()">JAVASCRIPT</button>
+        </div>
+        <div class="content" id="content1">
+            <div class="left-content">
+                <h1>Learn HTML</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium unde ex quidem itaque in
+                    delectus nobis nulla consequatur pariatur tenetur maiores nihil, iste atque doloribus inventore
+                    omnis nostrum provident ea?</p>
+                <a href="">WATCH VIDEO</a>
+                    
+            </div>
+            <div class="right-content">
+                <img src="./images/html-system-websites-concept.jpg" alt="">
+            </div>
+        </div>
+        <div class="content" id="content2">
+            <div class="left-content">
+                <h1>Learn CSS</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium unde ex quidem itaque in
+                    delectus nobis nulla consequatur pariatur tenetur maiores nihil, iste atque doloribus inventore
+                    omnis nostrum provident ea?</p>
+                <a href="">WATCH VIDEO</a>
+                    
+            </div>
+            <div class="right-content">
+                <img src="./images/person-front-computer-working-html (1).jpg" alt="">
+            </div>
+        </div>
+        <div class="content" id="content3">
+            <div class="left-content">
+                <h1>Learn JAVASCRIPT</h1>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium unde ex quidem itaque in
+                    delectus nobis nulla consequatur pariatur tenetur maiores nihil, iste atque doloribus inventore
+                    omnis nostrum provident ea?</p>
+                <a href="">WATCH VIDEO</a>
+                    
+            </div>
+            <div class="right-content">
+                <img src="./images/person-front-computer-working-html.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var btn1 = document.getElementById("btn-1")
+        var btn2 = document.getElementById("btn-2")
+        var btn3 = document.getElementById("btn-3")
+        var content1 = document.getElementById("content1")
+        var content2 = document.getElementById("content2")
+        var content3 = document.getElementById("content3")
+
+        function openHTML(){
+            content1.style.transform = "translateX(0)"
+            content2.style.transform = "translateX(100%)"
+            content3.style.transform = "translateX(100%)"
+            btn1.style.color="#ff7846"
+            btn2.style.color="#000"
+            btn3.style.color="#000"
+            
+            content1.style.transitionDelay="0.3s"
+            content2.style.transitionDelay="0s"
+            content3.style.transitionDelay="0s"
+        }
+
+        function openCSS(){
+            content1.style.transform = "translateX(100%)"
+            content2.style.transform = "translateX(0)"
+            content3.style.transform = "translateX(100%)"
+            btn1.style.color="#000"
+            btn2.style.color="#ff7846"
+            btn3.style.color="#000"
+            content1.style.transitionDelay="0s"
+            content2.style.transitionDelay="0.3s"
+            content3.style.transitionDelay="0s"
+        }
+
+        function openJS(){
+            content1.style.transform = "translateX(100%)"
+            content2.style.transform = "translateX(100%)"
+            content3.style.transform = "translateX(0)"
+            btn1.style.color="#000"
+            btn2.style.color="#000"
+            btn3.style.color="#ff7846"
+            
+            content1.style.transitionDelay="0s"
+            content2.style.transitionDelay="0s"
+            content3.style.transitionDelay="0.3s"
+        }
+
+    </script>
+</body>
+
+</html>
